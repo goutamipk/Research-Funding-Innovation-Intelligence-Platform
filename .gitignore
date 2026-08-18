@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# SQLite Databases
+data/*.db
+data/patents.db
+
+
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+dataset/g_cpc_title.tsv/
+dataset/g_inventor_disambiguated.tsv/
+dataset/g_patent.tsv/
+dataset/4_Research projects start date 2021 onwards.csv
+
+dataset/
+data/
